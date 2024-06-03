@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubriendo la Belleza de la Naturaleza</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f8ff;
+        }
+
+        h1 {
+            color: #2e8b57;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        h2 {
+            color: #4682b4;
+            margin-top: 30px;
+        }
+
+        .image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para el control de audio */
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Estilos para el control de vídeo */
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descubriendo la Belleza de la Naturaleza</h1>
+    <p>La naturaleza nos ofrece paisajes impresionantes y una diversidad de flora y fauna que nos deja maravillados. A través de imágenes, sonidos y videos, podemos explorar y apreciar la magnificencia de nuestro entorno natural.</p>
+
+    <h2>Imágenes</h2>
+    <img src="https://www.example.com/image1.jpg" alt="Paisaje Natural 1" class="image">
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="https://www.example.com/audio.mp3">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+
+    <h2>Vídeo</h2>
+    <video width="600" height="400" controls autoplay muted>
+        <source src="https://www.example.com/video.mp4">
+        Tu navegador no soporta la etiqueta de vídeo.
+    </video>
+</body>
+</html>
